@@ -1,0 +1,9 @@
+{
+  "Producers": [
+    {
+      "addr": "relays.aurum-white.dev.bcc.org",
+      "port": 3001,
+      "valency": 2
+    }
+  ]
+}
