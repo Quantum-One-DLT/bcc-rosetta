@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-"@emurgo/bcc-serialization-lib-nodejs@2.0.0":
+"@the-blockchain-company/bcc-serialization-lib-nodejs@2.0.0":
   version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@emurgo/bcc-serialization-lib-nodejs/-/bcc-serialization-lib-nodejs-2.0.0.tgz#e0dc17587bcda0a852aa27cb9cebcfe174a20a62"
+  resolved "https://registry.yarnpkg.com/@the-blockchain-company/bcc-serialization-lib-nodejs/-/bcc-serialization-lib-nodejs-2.0.0.tgz#e0dc17587bcda0a852aa27cb9cebcfe174a20a62"
   integrity sha512-JZapVXweLo2MEpXtlonES7BrvpzNPGZdOWL2QUAyd30tC30I75ZpTiLyBKeVYBj3yvAV1BwReQpvcO+PsXWBog==
 
 "@postman/form-data@~3.1.1":

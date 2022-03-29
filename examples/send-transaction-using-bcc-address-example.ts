@@ -12,7 +12,7 @@ import {
   waitForBalanceToBe,
   buildOperation,
 } from "./commons";
-import * as BccWasm from "@emurgo/bcc-serialization-lib-nodejs";
+import * as BccWasm from "@the-blockchain-company/bcc-serialization-lib-nodejs";
 import * as Bip39 from "bip39";
 const logger = console;
 
@@ -28,7 +28,7 @@ const SEND_FUNDS_ADDRESS =
 
 const doRun = async (): Promise<void> => {
   const entropy = Bip39.mnemonicToEntropy(mnemonic);
-  // See https://github.com/bcc-foundation/CIPs/blob/master/CIP-1852/CIP-1852.md
+  // See https://github.com/the-blockchain-company/CIPs/blob/master/CIP-1852/CIP-1852.md
   // The code is based on https://github.com/Emurgo/bcc-serialization-lib/blob/2c21b9d9afad3f90865ea85a2330f491aa019786/example/index.spec.ts#L26
   const account = BccWasm.Bip32PrivateKey.from_bip39_entropy(
     Buffer.from(entropy, "hex"),

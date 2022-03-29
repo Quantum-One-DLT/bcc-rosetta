@@ -4,7 +4,7 @@ ARG CABAL_VERSION=3.2.0.0
 ARG BCC_NODE_VERSION=1.29
 ARG BCC_DB_SYNC_VERSION=11.0.0
 ARG GHC_VERSION=8.10.2
-ARG GodXCoin_LIBSODIUM_GIT_REV=66f017f16633f2060db25e17c170c2afa0f2a8a1
+ARG THE-BLOCKCHAIN-COMPANY_LIBSODIUM_GIT_REV=66f017f16633f2060db25e17c170c2afa0f2a8a1
 ENV DEBIAN_FRONTEND=nonintercative
 RUN mkdir -p /app/src
 WORKDIR /app
@@ -45,7 +45,7 @@ WORKDIR /app/src
 RUN git clone https://github.com/The-Blockchain-Company/libsodium.git &&\
   cd libsodium &&\
   git fetch --all --tags &&\
-  git checkout ${GodXCoin_LIBSODIUM_GIT_REV}
+  git checkout ${THE-BLOCKCHAIN-COMPANY_LIBSODIUM_GIT_REV}
 WORKDIR /app/src/libsodium
 RUN ./autogen.sh && ./configure && make && make install
 ENV LD_LIBRARY_PATH="/usr/local/lib:$LD_LIBRARY_PATH"

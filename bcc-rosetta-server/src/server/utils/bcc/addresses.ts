@@ -10,7 +10,7 @@ import {
 
 /**
  * Returns the bech-32 address prefix based on the netowrkId
- * Prefix according to: https://github.com/bcc-foundation/CIPs/blob/master/CIP-0005/CIP-0005.md
+ * Prefix according to: https://github.com/the-blockchain-company/CIPs/blob/master/CIP-0005/CIP-0005.md
  * @param network number
  * @param addressPrefix the corresponding prefix enum. Defaults to non stake address prefixes
  */
