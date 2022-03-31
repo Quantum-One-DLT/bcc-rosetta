@@ -14,7 +14,7 @@
     "send-transaction-postman-example": "node ./postman/send-transaction-example send_transaction_postman_environment.json"
   },
   "dependencies": {
-    "@the-blockchain-company/bcc-serialization-lib-nodejs": "2.0.0",
+    "@theblockchaincompanyio/bcc-serialization-lib-nodejs": "2.0.0",
     "@types/node": "14.14.10",
     "@types/temp-write": "4.0.0",
     "axios": "0.21.1",

@@ -12,7 +12,7 @@ import {
   waitForBalanceToBe,
   buildOperation,
 } from "./commons";
-import * as BccWasm from "@the-blockchain-company/bcc-serialization-lib-nodejs";
+import * as BccWasm from "@theblockchaincompanyio/bcc-serialization-lib-nodejs";
 import * as Bip39 from "bip39";
 const logger = console;
 
